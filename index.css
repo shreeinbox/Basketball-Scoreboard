@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    background-image: url("scoreboard.jpg");
+    background-size: cover;
+}
+
+.container {
+   
+    background-color: rgba(17, 17, 18, 0.8);
+    border: 1px solid #F94F6D;
+    border-radius: 5px;
+    align-items: start;
+    width: 300px;
+    height: 300px;
+    margin: 10px 410px;
+    text-align: center;
+}
+#time{
+    color: #d90c0c;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-weight: 500;
+    padding: 10px;
+    height: 20px;
+    background-color:black;
+    border: 2px solid rgb(240, 237, 237);
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.main h3{
+    color: #EEEEEE;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+}
+.team{
+    text-align: center;
+}
+.score{
+    width: 100px;
+    height: 90px;
+    background-color: #080001;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 105.67px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #F94F6D;
+    margin-bottom: 20px;
+}
+.btn{
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    cursor:pointer;
+    margin:2px;
+    border: 1px solid #9AABD8;
+    box-shadow: 2px 2px 5px 0 rgb(236, 70, 70);
+    background-color:rgb(240, 172, 172);
+    border-radius: 5px 5px;
+    color: #000003;
+    font-family: Cursed Timer ULiL;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 27.81px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+.newgame{
+    color:green;
+    margin: 20px 0px;
+    padding: 5px;
+    border-radius: 10px 10px;
+    box-shadow: 0px 2px 4px white;
+}
+.highlight{
+    text-shadow: 2px 2px 4px rgb(106, 248, 101);
+}
+.final{
+    margin:0;
+    background-color:rgb(186, 178, 178);
+    position: relative;
+    width: 100px;
+    color:rgb(5, 50, 15);
+    animation-name: example;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+from {text-shadow: 2px 2px 4px rgb(106, 248, 101);
+}
+to {text-shadow: 2px 2px 4px rgb(240, 238, 117);
+}
+from {left: 0px;}
+to {left: 200px;}
+}
